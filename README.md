@@ -198,13 +198,3 @@ Projeto acadêmico desenvolvido durante minha graduação em **Sistemas de Infor
 A proposta foi desenvolver uma aplicação web que permitisse aplicar conhecimentos de HTML, CSS e JavaScript juntamente com integração de dados através de uma API local.
 
 ---
-
-## 👨‍💻 Autor
-
-**Juan Carlos Barbosa Reis**
-
-Estudante de Sistemas de Informação na PUC Minas e Técnico em Informática pelo Colégio COTEMIG.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juan-carlos-77324427a/)
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/dom155)
