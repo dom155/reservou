@@ -62,3 +62,149 @@ GET    → Consultar reservas
 POST   → Criar uma nova reserva
 PUT    → Atualizar uma reserva
 DELETE → Excluir uma reserva
+
+```
+
+A API utilizada pelo projeto é executada localmente no endereço:
+
+```text
+http://localhost:3000/reservas
+```
+
+---
+
+## 🗂️ Estrutura do projeto
+
+```text
+reservou/
+│
+├── DB/
+│   └── db.json
+│
+├── css/
+│   └── arquivos de estilização
+│
+├── img/
+│   └── imagens utilizadas no projeto
+│
+├── pages/
+│   ├── index.html
+│   └── reservas.html
+│
+├── script/
+│   ├── crud.js
+│   ├── interface.js
+│   └── script.js
+│
+└── README.md
+```
+
+---
+
+## ⚙️ Funcionamento
+
+O frontend da aplicação foi desenvolvido utilizando HTML, CSS e JavaScript.
+
+As informações das reservas são armazenadas em um arquivo JSON, que funciona como banco de dados local através do JSON Server.
+
+O fluxo da aplicação funciona da seguinte maneira:
+
+```text
+Usuário
+   ↓
+Interface Web
+   ↓
+JavaScript
+   ↓
+API REST
+   ↓
+JSON Server
+   ↓
+db.json
+```
+
+---
+
+## ▶️ Como executar o projeto
+
+Para executar o projeto localmente, é necessário ter o Node.js instalado.
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/dom155/reservou.git
+```
+
+### 2. Acesse a pasta do projeto
+
+```bash
+cd reservou
+```
+
+### 3. Instale o JSON Server
+
+```bash
+npm install -g json-server
+```
+
+### 4. Inicie a API
+
+```bash
+json-server --watch DB/db.json --port 3000
+```
+
+A API estará disponível em:
+
+```text
+http://localhost:3000/reservas
+```
+
+### 5. Abra a aplicação
+
+Abra o arquivo:
+
+```text
+pages/index.html
+```
+
+no navegador.
+
+Também é possível utilizar uma extensão como **Live Server** no Visual Studio Code para executar a aplicação.
+
+---
+
+## 🎯 Objetivo do projeto
+
+O projeto foi desenvolvido com o objetivo de aplicar conhecimentos de desenvolvimento web em um cenário próximo de uma aplicação real.
+
+Durante o desenvolvimento foram trabalhados conceitos como:
+
+- Manipulação do DOM
+- Eventos em JavaScript
+- Consumo de API REST
+- Requisições HTTP
+- CRUD
+- Manipulação de JSON
+- Organização de arquivos
+- Desenvolvimento de interfaces
+- Persistência de dados
+
+---
+
+## 🎓 Contexto
+
+Projeto acadêmico desenvolvido durante minha graduação em **Sistemas de Informação na PUC Minas**.
+
+A proposta foi desenvolver uma aplicação web que permitisse aplicar conhecimentos de HTML, CSS e JavaScript juntamente com integração de dados através de uma API local.
+
+---
+
+## 👨‍💻 Autor
+
+**Juan Carlos Barbosa Reis**
+
+Estudante de Sistemas de Informação na PUC Minas e Técnico em Informática pelo Colégio COTEMIG.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juan-carlos-77324427a/)
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/dom155)
